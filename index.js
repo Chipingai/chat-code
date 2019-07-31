@@ -4,7 +4,7 @@ var io = require('socket.io')(http);
 var port = process.env.PORT || 3000;
 
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://vbkellis:chi88ing@firstcluster-5wdsw.mongodb.net/test?retryWrites=true&w=majority";
+var url = "mongodb+srv://vbkellis:my1password@firstcluster-5wdsw.mongodb.net/test?retryWrites=true&w=majority";
 
 
 
