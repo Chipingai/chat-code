@@ -70,9 +70,6 @@
         });
 		
         $('#login').submit(function(e){
-		
-			var x = document.getElementById("message");
-			x.innerHTML = "Login success! Start chatting!";
 			e.preventDefault(); // prevents page reloading
 			socket.emit('login', { name: $('#loginName').val(), password: $('#loginPassword').val() });
 			$('#loginPassword').val('');
